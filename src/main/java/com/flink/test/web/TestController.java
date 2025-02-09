@@ -12,6 +12,6 @@ public class TestController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public String test() {
-        return "Have a nice day!!";
+        return "Have a nice day!";
     }
 }
